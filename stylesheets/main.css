@@ -13,11 +13,47 @@ body {
     font-family: var(--primary-font);
 }
 
-ul {
+.header {
+    width: 100vw;
+    position: fixed;
+    background-color: var(--light-color);
+}
+
+.logo-container {
+    width: 155px;
+}
+
+.logo-container image {
+    
+}
+
+.nav ul {
     list-style: none;
     text-decoration: none;
     padding: 0;
-    
+}
 
+.links li {
+    font-size: 16px;
+}
 
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.motto-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.motto {
+    font-size: 30px;
+    color: var(--light-color);
 }
