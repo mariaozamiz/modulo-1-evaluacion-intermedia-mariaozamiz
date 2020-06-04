@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
-  </head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap"
+        />
+        <link rel="stylesheet" href="./assets/css/main.css" />
+        <title>Adalab</title>
+    </head>
+    <body>
+        <header class="header">
+                <a title="web de Adalab" href="http://www.adalab.es"
+                    ><img
+                        src="./assets/img/adalab-logo.png"
+                        target="_blank"
+                        alt="logo Adalab" title="Ir a la web de Adalab"
+                /></a>
+            <nav class="nav">
+                <ul class="links">
+                    <li><a class="link-blog" href="https://medium.com/adalab" target="_blank">Blog</a></li>
+                    <a class="link-contact" href="https://adalab.es/contacto/" target="_blank"><li>Contacto</li></a>
+                </ul>
+            </nav>
+        </header>
 
-  <body>
-    <div class="page">
-      <include src="./partials/header.html" title="Bienvenidos a Adalab"></include>
-      <include src="./partials/main.html"></include>
-      <include
-        src="./partials/link.html"
-        aClass="link__adalab"
-        text="Adalab"
-        url="https://adalab.es"
-      ></include>
-      <include
-        src="./partials/link.html"
-        aClass="link__github"
-        text="GitHub"
-        url="https://github.com"
-      ></include>
-      <include src="./partials/footer.html"></include>
-    </div>
-  </body>
+        <main class="main">
+            <div class="motto-wrapper">
+                <h1 class="motto">
+                    <span>creando</span>
+                    <span>diversidad</span>
+                    <span>digital</span>
+                </h1>
+            </div>
+        </main>
+    </body>
 </html>
